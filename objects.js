@@ -6,4 +6,7 @@ var me = {
 	'hair color': 'brown'
 };
 
+me.replace (name,'Nic Arnold'; age, 36; haircolor, 'brown');
+
 //2. Iterate over the object to console.log the propery or key names. 
+console.log(me)

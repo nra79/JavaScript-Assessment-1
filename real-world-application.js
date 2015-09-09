@@ -58,10 +58,23 @@ var crayola1990 = [
 	'Antique Brass'
 ];
 
+crayola1990.toLowerCase();  //or change crayola1990 to this.
+
+crayola1990.replace(' ','-');
+
 //create a loop that will iterate over each item in the array and then use the String methods to modify the value at the current position in the array
 
 /***** HINTS *******
  * remember strings are immutable but the value of a variable can be adjusted as often as needed.
  * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
  * there are multiple ways to do something like this but you might consider using split and join
- */ 
+ */
+
+for(i= 0; i<= crayola1990.length; i++){
+console.log(crayola1990[i]), <br/>      //???? not sure what your wanting it to show.
+}
+
+
+
+
+
